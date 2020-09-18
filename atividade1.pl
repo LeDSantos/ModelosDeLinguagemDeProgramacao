@@ -8,7 +8,8 @@ avos(X,Y) :- (pai(X,PROGEN);mae(X,PROGEN)), %progenitor(a)
     (pai(PROGEN,Y); mae(PROGEN,Y)).
 avof(X,Y) :- avos(X,Y),feminino(Y).
 avom(X,Y) :- avos(X,Y),masculino(Y).
-antepassado(X,Y) :- pai(X,Y);mae(X,Y);avos(X,Y).
+antepassado(X,Y) :- mae(X,Y); pai(X,Y);
+                tioa(X,Y); avos(X,Y).
 feminino(maria).
 feminino(ana).
 feminino(daniele).
