@@ -1,14 +1,11 @@
-/a.exe
-/CATP 08 - Perguntas.pdf
-/CATP#08.docx
-/CATP#08Leticia275604.pdf
+/*.exe
+/CATP*.pdf
+/*HackerRank.pdf
+/*.docx
 /main.c
-/teste.c
-/RevisãoP1.docx
-/RevisãoP1.pdf
-/Prova1.docx
 /Prova1.pdf
-/teste_sh.sh
-/AprendendoC++/a.exe
+/teste*.*
 /*/*.zip
+/*/*.exe
 /*.zip
+/*.mp4
